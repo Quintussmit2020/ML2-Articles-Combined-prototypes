@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.magicleap.unitysdk": "file:C:/Users/quint/MagicLeap/tools/unity/v1.3.0/com.magicleap.unitysdk.tgz",
+    "com.magicleap.unitysdk": "file:C:/Repositories/Github/ML2 Articles Prototype pack/Packages/com.magicleap.unitysdk.tgz",
     "com.unity.ai.navigation": "1.1.0-pre.1",
     "com.unity.collab-proxy": "1.17.2",
     "com.unity.ide.rider": "3.0.15",
