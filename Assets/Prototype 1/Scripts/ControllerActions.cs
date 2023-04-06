@@ -40,7 +40,7 @@ public class ControllerActions : MonoBehaviour
     private void Menu_performed(InputAction.CallbackContext obj)
     {
         isDimmed = !isDimmed;
-        //ToggleGlobalDimming(isDimmed);
+         ToggleGlobalDimming(isDimmed);
         dimmingController.ToggleGlobalDimming(isDimmed);
     }
 
@@ -63,16 +63,14 @@ public class ControllerActions : MonoBehaviour
     {
         var touchPosition = controllerActions.TouchpadPosition.ReadValue<Vector2>();
         var DimmingValue = Mathf.Clamp((touchPosition.y + 1) / (1.8f), 0, 1);
-        dimmingController.SegmentedDimming(DimmingValue);
-        
-
-        //screenDimmer.GetComponent<MeshRenderer>().material.SetFloat("_DimmingValue", DimmingValue);
-        //MLGlobalDimmer.SetValue(DimmingValue);
+        //dimmingController.SegmentedDimming(DimmingValue);
+       //screenDimmer.GetComponent<MeshRenderer>().material.SetFloat("_DimmingValue", DimmingValue);
+        MLGlobalDimmer.SetValue(DimmingValue);
     }
 
-    //private void ToggleGlobalDimming(bool isEnabled)
-    //{
-    //    MLGlobalDimmer.SetValue(isEnabled ? 1 : 0);
-    //}
+    private void ToggleGlobalDimming(bool isEnabled)
+    {
+        MLGlobalDimmer.SetValue(isEnabled ? 1 : 0);
+    }
 
 }

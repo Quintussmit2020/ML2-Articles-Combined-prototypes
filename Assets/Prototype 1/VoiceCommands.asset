@@ -18,10 +18,6 @@ MonoBehaviour:
     Value: Turn On Global Dimming | Turn On Threater Mode
   - Id: 102
     Value: Turn Off Global Dimming | Turn Off Threater Mode
-  - Id: 103
-    Value: Turn On Segmented Dimming | Show Segmented Dimmer
-  - Id: 104
-    Value: Turn Off Segmented Dimming | Hide Segmented Dimmer
   - Id: 105
     Value: Play video | Play
   - Id: 106
@@ -32,4 +28,6 @@ MonoBehaviour:
     Value: Menu| Open menu | Open main menu
   - Id: 109
     Value: Close menu | Close main menu
+  AutoAllowAllSystemIntents: 0
   SystemCommands: 1
+  SlotsForVoiceCommands: []
