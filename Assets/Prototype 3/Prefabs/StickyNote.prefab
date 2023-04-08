@@ -131,8 +131,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5871277, y: 1.5644073, z: 0.25922358}
-  m_Center: {x: 0.015640259, y: -0.31528473, z: -0.15255316}
+  m_Size: {x: 2.5871277, y: 2.3841858, z: 0.084431365}
+  m_Center: {x: 0.015640259, y: 0.09460449, z: -0.065157056}
 --- !u!114 &8975387437357714831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695261500600253553}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.5716699}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5791001}
   m_LocalScale: {x: 0.0018, y: 0.0018, z: 0.0018}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -701,7 +701,6 @@ GameObject:
   - component: {fileID: 5725329025839944979}
   - component: {fileID: 1393456600489684944}
   - component: {fileID: 6820590434842482903}
-  - component: {fileID: 3218949420605217243}
   m_Layer: 0
   m_Name: NoteCube
   m_TagString: Untagged
@@ -774,27 +773,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3218949420605217243
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4961867671398329172}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5354871055491999897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,7 +1073,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6790468007562781626}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.5716699}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5791001}
   m_LocalScale: {x: 0.0018, y: 0.0018, z: 0.0018}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1278,7 +1256,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8148035501046342006}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.5716699}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5791}
   m_LocalScale: {x: 0.0018, y: 0.0018, z: 0.0018}
   m_ConstrainProportionsScale: 1
   m_Children:
